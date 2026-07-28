@@ -102,15 +102,15 @@ TYPESCRIPT_BUILD_CONFIG_PATH=.config/typescript/tsconfig.build.json
 TYPESCRIPT_TEST_CONFIG_PATH=.config/typescript/tsconfig.test.json
 
 # 🔧 Version Management
-NVM_RC_PATH=.config/nvm/.nvmrc
-TOOL_VERSIONS_PATH=.config/asdf/.tool-versions
+NVM_RC_PATH=.config/nvm/nvmrc
+TOOL_VERSIONS_PATH=.config/asdf/tool-versions
 
 # 🌍 Package Management
-NPMRC_PATH=.config/npm/.npmrc
+NPMRC_PATH=.config/npm/npmrc
 
 # 🔌 Git Configuration (optional)
-GIT_CONFIG_PATH=.config/git/.gitconfig
-GIT_ATTRIBUTES_PATH=.config/git/.gitattributes
+GIT_CONFIG_PATH=.config/git/gitconfig
+GIT_ATTRIBUTES_PATH=.config/git/gitattributes
 ```
 
 ---
@@ -137,12 +137,12 @@ my-project/
 │   ├── vite/
 │   │   └── config.mts
 │   ├── npm/
-│   │   └── .npmrc
+│   │   └── npmrc
 │   ├── nvm/
-│   │   └── .nvmrc
+│   │   └── nvmrc
 │   └── git/
-│       ├── .gitconfig
-│       └── .gitattributes
+│       ├── gitconfig
+│       └── gitattributes
 │
 ├── src/
 ├── public/
