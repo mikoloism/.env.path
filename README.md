@@ -108,6 +108,10 @@ TOOL_VERSIONS_PATH=.config/asdf/tool-versions
 # 🌍 Package Management
 NPMRC_PATH=.config/npm/npmrc
 
+# VS Code Editor
+VSCODE_WORKSPACE_DIR_PATH=.config/vscode/
+VSCODE_WORKSPACE_ROOT_PATH=./
+
 # 🔌 Git Configuration (optional)
 GIT_CONFIG_PATH=.config/git/gitconfig
 GIT_ATTRIBUTES_PATH=.config/git/gitattributes
